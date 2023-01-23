@@ -1,0 +1,8 @@
+{
+  "name": "api2",
+  "version": "1.0.0",
+  "description": "api for equal",
+  "main": "index.js",
+  "author": "543",
+  "license": "MIT"
+}
