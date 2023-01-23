@@ -1,6 +1,7 @@
 
 async function geti() {
-  return "api pls"
+  let rd = await fetch("https://api.coingecko.com/api/v3/global")
+  return rd.json();
 }
 
 
