@@ -64,7 +64,7 @@ async function geti() {
 				(
 					Number("0x"+i.substr( 2+64*4 , 64 ))
 					- ( Number("0x"+i.substr( 2+64*5 , 64 )) + Number("0x"+i.substr( 2+64*6 , 64 )) + Number("0x"+i.substr( 2+64*7 , 64 )) )
-					- ( Number("0x"+i.substr( 2+64*8 , 64 )) + Number("0x"+i.substr( 2+64*8 , 64 )) + Number("0x"+i.substr( 2+64*10, 64 )) + Number("0x"+i.substr( 2+64*11, 64 )) )
+					- ( Number("0x"+i.substr( 2+64*8 , 64 )) + Number("0x"+i.substr( 2+64*9 , 64 )) + Number("0x"+i.substr( 2+64*10, 64 )) + Number("0x"+i.substr( 2+64*11, 64 )) )
 				) / 1e18
 			) * Number("0x"+i.substr( 2+64*1 , 64 )) / 1e18
 			, XELITE: {
