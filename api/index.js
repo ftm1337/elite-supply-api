@@ -48,7 +48,7 @@ async function geti() {
 				- Number("0x"+i.substr( 2+64*11, 64 ))
 			) / 1e18
 			, nonCirculatingSupplies: {
-				, timeLocked:	Number("0x"+i.substr( 2+64*8 , 64 )) / 1e18
+				timeLocked:	Number("0x"+i.substr( 2+64*8 , 64 )) / 1e18
 				, treasury:		Number("0x"+i.substr( 2+64*9 , 64 )) / 1e18
 				, devFund:		Number("0x"+i.substr( 2+64*10, 64 )) / 1e18
 				, reserve:		Number("0x"+i.substr( 2+64*11, 64 )) / 1e18
@@ -68,7 +68,7 @@ async function geti() {
 				) / 1e18
 			) * Number("0x"+i.substr( 2+64*1 , 64 )) / 1e18
 			, XELITE: {
-				, totalSupply:	Number("0x"+i.substr( 2+64*13, 64 )) / 1e18
+				totalSupply:	Number("0x"+i.substr( 2+64*13, 64 )) / 1e18
 				, mintRatio:	Number("0x"+i.substr( 2+64*14, 64 )) / 1e18
 				, treasury:		Number("0x"+i.substr( 2+64*16 , 64 )) / 1e18
 				, devFund:		Number("0x"+i.substr( 2+64*16, 64 )) / 1e18
