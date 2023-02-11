@@ -37,7 +37,7 @@ async function geti() {
 				"Dead": Number("0x"+i.substr( 2+64*6 , 64 )) / 1e18,
 				"DEAD1337": Number("0x"+i.substr( 2+64*7 , 64 )) / 1e18,
 			}
-			circulatingSupply: 		(
+			, circulatingSupply: 		(
 				Number("0x"+i.substr( 2+64*3 , 64 ))
 				- Number("0x"+i.substr( 2+64*5 , 64 ))
 				- Number("0x"+i.substr( 2+64*6 , 64 ))
