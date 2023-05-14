@@ -85,6 +85,6 @@ module.exports = async (req, res) => { // this function will be launched when th
 		res.set("Access-Control-Max-Age": 2592000);
 		res.send(await geti()) // send the data
 	} catch (err) {
-		res.send(err) // send the thrown error
+		res.send({"n":"hm?","err_":err) // send the thrown error
 	}
 }
