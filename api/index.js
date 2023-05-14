@@ -80,9 +80,9 @@ async function geti() {
 
 module.exports = async (req, res) => { // this function will be launched when the API is called.
 	try {
-		res.set('Access-Control-Allow-Origin', '*');
-		res.set("Access-Control-Allow-Methods": "OPTIONS, POST, GET");
-		res.set("Access-Control-Max-Age": 2592000);
+		//res.set('Access-Control-Allow-Origin', '*');
+		//res.set("Access-Control-Allow-Methods": "OPTIONS, POST, GET");
+		//res.set("Access-Control-Max-Age": 2592000);
 		res.send(await geti()) // send the data
 	} catch (err) {
 		res.send({"n":"hm?","err_":err) // send the thrown error
